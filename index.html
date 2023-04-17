@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        color: hsl(248, 32%, 49%);
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .attribution a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <section class="leftSide">
+        <h1 class="title">Learn to code by watching others</h1>
+        <p class="description">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+
+      <section class="rightSide">
+        <section class="trailBox">
+          <h2 class="title2">
+            Try it free 7 days
+            <span class="light">then $20/mo. thereafter</span>
+          </h2>
+        </section>
+
+        <form id="form" action="#" class="form">
+          <section class="inputField">
+            <input type="text" id="fname" placeholder="First Name" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="errorImg"
+            />
+            <small class="errormsg">error</small>
+          </section>
+
+          <section class="inputField">
+            <input type="text" id="lname" placeholder="Last Name" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="errorImg"
+            />
+            <small class="errormsg">error</small>
+          </section>
+
+          <section class="inputField">
+            <input type="email" id="email" placeholder="Email Address" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="errorImg"
+            />
+            <small class="errormsg">error</small>
+          </section>
+
+          <section class="inputField">
+            <input type="password" id="password" placeholder="Password" />
+            <img
+              src="./images/icon-error.svg"
+              alt="icon-error"
+              class="errorImg"
+            />
+            <small class="errormsg">error</small>
+          </section>
+
+          <button class="submitBtn">CLAIM YOUR FREE TRAIL</button>
+          <p class="warning">
+            By clicking the button, you are agreeing to our
+            <span class="red">Terms and Services</span>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a target="_blank" href="https://faizan98x.netlify.app/">Muhammad Faizan Ur Rehman</a>.
+      </p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
